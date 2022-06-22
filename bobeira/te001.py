@@ -1,3 +1,4 @@
+from ast import Slice
 import os
 palpites=list()
 palpites2=tuple()
@@ -17,4 +18,4 @@ while True:
         #proxima vez usar um ciclo for para verificar se os numeros seguintes são iguais, e usar github branches
 os.system("cls")
 
-print(f'Palpites: {palpites}')
+print(f'Palpites: {palpites2}')
