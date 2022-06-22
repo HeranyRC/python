@@ -14,6 +14,8 @@ while True:
     else:
         palpites.append(num)
 
+    for p in palpites: #range(len(palpites)):
+        pass
         #proxima vez usar um ciclo for para verificar se os numeros seguintes são iguais, e usar github branches
 os.system("cls")
 
